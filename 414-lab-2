@@ -1,1 +1,227 @@
+ <!-- 英雄区域 -->
+  <section class="relative h-[80vh] flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0 z-0">
+      <img src="https://ts1.tc.mm.bing.net/th/id/R-C.e1533e009d22486bda93e253b4d24187?rik=a9qbcL7bWxWl4w&riu=http%3a%2f%2fnews.cjn.cn%2fsywh%2f202106%2fW020210609681382466129.jpeg&ehk=5xxBHlzLBbyucyzJRbYYiwF3cocN9mZAw3WM6Ui72gM%3d&risl=&pid=ImgRaw&r=0" alt="环境科学研究背景" class="w-full h-full object-cover">
+      <div class="absolute inset-0 bg-academia-blue/40"></div>
+    </div>
+    
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+      <h1 class="text-[clamp(2.5rem,5vw,4rem)] font-bold text-white text-shadow-lg mb-4 fade-in">环境化学与污染修复课题组</h1>
+      <p class="text-[clamp(1.2rem,2vw,1.5rem)] text-white text-shadow mb-8 max-w-3xl mx-auto fade-in delay-100">
+        依托华中农业大学建立，致力于环境污染与修复、环境电化学领域的研究
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4 fade-in delay-200">
+        <a href="#about" class="px-8 py-3 bg-academia-green text-white font-medium rounded-lg hover:bg-academia-green/90 transition-colors shadow-lg">
+          了解课题组
+        </a>
+        <a href="members.html" class="px-8 py-3 bg-white text-academia-blue font-medium rounded-lg hover:bg-gray-100 transition-colors shadow-lg">
+          查看团队成员
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 课题组简介 -->
+  <section id="about" class="py-20 bg-white">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-[clamp(1.8rem,3vw,2.5rem)] font-bold text-academia-blue mb-4">课题组简介</h2>
+        <div class="w-24 h-1 bg-academia-green mx-auto"></div>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- 课题组照片 -->
+        <div class="md:col-span-1 fade-in">
+          <img src="https://zyhj.hzau.edu.cn/__local/6/D9/ED/9164E559CF896941938C3CA2B68_CAB74035_176EB.jpg">
+          <div class="mt-6 text-center">
+            <h3 class="text-xl font-bold text-academia-blue">邱国红 教授</h3>
+            <p class="text-gray-600">课题组负责人</p>
+          </div>
+        </div>
+        
+        <!-- 课题组介绍 -->
+        <div class="md:col-span-2 fade-in delay-200">
+          <p class="text-lg text-gray-700 leading-relaxed mb-6">
+            “环境化学与修复课题组”依托华中农业大学建立。研究方向有：环境污染与修复（污染土壤修复、水处理）、环境电化学（Environmental Pollution and Remediation, Environmental Electrochemistry）。
+          </p>
+          
+          <p class="text-lg text-gray-700 leading-relaxed mb-6">
+            团队负责人邱国红，华中农业大学教授，先后主持国家自然科学基金、教育部新教师基金和国家重点研发计划专项课题等多项课题；2012年获批湖北省杰出青年基金、入选教育部新世纪优秀人才支持计划，2014年获霍英东教育基金会第十四届高等院校青年教师基金，2014年和2019年为湖北省重点基金创新群体骨干成员，2018年入选科技部中青年科技创新领军人才，2019年入选国家“万人计划”科技创新领军人才。
+          </p>
+          
+          <p class="text-lg text-gray-700 leading-relaxed mb-6">
+            在Environmental Science & Technology、Geochimica et Cosmochimica Acta和Water Research等期刊发表科研论文150余篇，其中SCI论文有130余篇；第一和通讯作者的SCI论文80余篇、核心期刊论文9篇，被SCI论文引用4000余次。授权国家发明专利6件；副主编《环境化学》教材1部。
+          </p>
+          
+          <div class="bg-academia-green/10 rounded-lg p-6 border-l-4 border-academia-green">
+            <p class="text-lg text-gray-700 leading-relaxed italic">
+              欢迎有环境科学与工程、土壤学或材料电化学等专业背景的同学报考硕士和博士（环境化学、土壤污染与修复、材料电化学等方向），优秀者可考虑竞聘教职岗位，欢迎感兴趣的同学及时联系：qiugh@mail.hzau.edu.cn，加入团队。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 研究方向 -->
+  <section class="py-20 bg-gray-50">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-[clamp(1.8rem,3vw,2.5rem)] font-bold text-academia-blue mb-4">研究方向</h2>
+        <div class="w-24 h-1 bg-academia-green mx-auto"></div>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- 研究方向1 -->
+        <div class="research-card fade-in">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 rounded-full bg-academia-green/20 flex items-center justify-center mr-4">
+              <i class="fa fa-leaf text-academia-green text-xl"></i>
+            </div>
+            <h3 class="text-xl font-bold text-academia-blue">环境污染与修复</h3>
+          </div>
+          <p class="text-gray-700 mb-4">
+            主要研究污染土壤修复和水处理技术，致力于开发高效、环保的污染治理方法，解决环境中的重金属污染、有机物污染等问题。
+          </p>
+          <ul class="space-y-2 text-gray-700">
+            <li class="flex items-start">
+              <i class="fa fa-check-circle text-academia-green mt-1 mr-2"></i>
+              <span>污染土壤修复技术研发</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fa fa-check-circle text-academia-green mt-1 mr-2"></i>
+              <span>废水处理与资源化</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fa fa-check-circle text-academia-green mt-1 mr-2"></i>
+              <span>环境污染物迁移转化机制</span>
+            </li>
+          </ul>
+        </div>
+        
+        <!-- 研究方向2 -->
+        <div class="research-card fade-in delay-200">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 rounded-full bg-academia-blue/20 flex items-center justify-center mr-4">
+              <i class="fa fa-bolt text-academia-blue text-xl"></i>
+            </div>
+            <h3 class="text-xl font-bold text-academia-blue">环境电化学</h3>
+          </div>
+          <p class="text-gray-700 mb-4">
+            研究电化学技术在环境污染治理中的应用，开发新型电极材料和电化学系统，实现污染物的高效去除和环境修复。
+          </p>
+          <ul class="space-y-2 text-gray-700">
+            <li class="flex items-start">
+              <i class="fa fa-check-circle text-academia-blue mt-1 mr-2"></i>
+              <span>电化学修复技术</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fa fa-check-circle text-academia-blue mt-1 mr-2"></i>
+              <span>功能电极材料开发</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fa fa-check-circle text-academia-blue mt-1 mr-2"></i>
+              <span>电化学过程机理研究</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 最新成果 -->
+  <section class="py-20 bg-white">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-[clamp(1.8rem,3vw,2.5rem)] font-bold text-academia-blue mb-4">最新成果</h2>
+        <div class="w-24 h-1 bg-academia-green mx-auto"></div>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- 最新论文 -->
+        <div class="fade-in">
+          <h3 class="text-xl font-bold text-academia-blue mb-6 flex items-center">
+            <i class="fa fa-file-text-o text-academia-green mr-2"></i>
+            最新论文
+          </h3>
+          <div class="space-y-4">
+            <div class="paper-card">
+              <p class="text-sm text-gray-500 mb-2">2025, Desalination</p>
+              <h4 class="font-semibold text-gray-800 mb-2">
+                <a href="https://doi.org/10.1016/j.desal.2024.118257" class="text-academia-blue hover:text-academia-green transition-colors">
+                  One-step electrochemical reduction and precipitation removal of Cr(VI) in acid wastewaters using amidoxime-functionalized carbon felt
+                </a>
+              </h4>
+              <p class="text-gray-700">Xiong Yang, Jianhan Xiong, Liwen Cao, Yi Zhang, Pan Wu, Yafei Shi, Huiqin Zhang, Kewu Pi, Guohong Qiu*</p>
+            </div>
+            
+            <div class="paper-card">
+              <p class="text-sm text-gray-500 mb-2">2024, Chemical Engineering Journal</p>
+              <h4 class="font-semibold text-gray-800 mb-2">
+                <a href="https://doi.org/10.1016/j.cej.2024.155463" class="text-academia-blue hover:text-academia-green transition-colors">
+                  Enhanced removal of lead ions from wastewaters by electrochemical adsorption using nitrogen-doped Ti3C2Tx MXene
+                </a>
+              </h4>
+              <p class="text-gray-700">Yi Wang, Weihao Chen, Xiong Yang, Anyu Li, Tao Lu, Guohong Qiu*</p>
+            </div>
+            
+            <div class="paper-card">
+              <p class="text-sm text-gray-500 mb-2">2024, Bioresource Technology</p>
+              <h4 class="font-semibold text-gray-800 mb-2">
+                <a href="https://doi.org/10.1016/j.biortech.2024.130913" class="text-academia-blue hover:text-academia-green transition-colors">
+                  Mechanisms for synergistically enhancing cadmium remediation performance of biochar: Silicon activation and functional group effects
+                </a>
+              </h4>
+              <p class="text-gray-700">Anyu Li, Tao Lu, Yutong Zhang, Shengjun Deng, Xianjie Duan, Guohong Qiu*</p>
+            </div>
+          </div>
+          <div class="mt-6 text-center">
+            <a href="research.html" class="inline-flex items-center px-5 py-2.5 bg-academia-green text-white font-medium rounded-lg hover:bg-academia-green/90 transition-colors">
+              查看更多论文
+              <i class="fa fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+        
+        <!-- 最新专利 -->
+        <div class="fade-in delay-200">
+          <h3 class="text-xl font-bold text-academia-blue mb-6 flex items-center">
+            <i class="fa fa-lightbulb-o text-academia-blue mr-2"></i>
+            最新专利
+          </h3>
+          <div class="space-y-4">
+            <div class="patent-card">
+              <p class="text-sm text-gray-500 mb-2">专利授权号：ZL 201910087124.0</p>
+              <h4 class="font-semibold text-gray-800 mb-2">
+                一种基于原电池原理修复重金属污染土壤的方法
+              </h4>
+              <p class="text-gray-700">发明人：邱国红、乔琪、刘立虎、杨雄</p>
+            </div>
+            
+            <div class="patent-card">
+              <p class="text-sm text-gray-500 mb-2">专利授权号：ZL 201910086317.4</p>
+              <h4 class="font-semibold text-gray-800 mb-2">
+                一种电化学还原铁氧化物去除水体中重金属阴离子污染的方法
+              </h4>
+              <p class="text-gray-700">发明人：邱国红、杨雄、陈韩琛、刘立虎、林世伟</p>
+            </div>
+            
+            <div class="patent-card">
+              <p class="text-sm text-gray-500 mb-2">专利授权号：ZL 201610604718.0</p>
+              <h4 class="font-semibold text-gray-800 mb-2">
+                一种电化学去除液体中重金属的方法
+              </h4>
+              <p class="text-gray-700">发明人：邱国红、刘立虎、彭启川、谭文峰、刘凡</p>
+            </div>
+          </div>
+          <div class="mt-6 text-center">
+            <a href="patents.html" class="inline-flex items-center px-5 py-2.5 bg-academia-blue text-white font-medium rounded-lg hover:bg-academia-blue/90 transition-colors">
+              查看更多专利
+              <i class="fa fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
